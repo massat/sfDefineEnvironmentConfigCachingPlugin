@@ -1,0 +1,21 @@
+NAME
+    sfDefineEnvironmentConfigCachingPlugin
+
+SYNOPSIS
+    # config/config_handlers.yml
+    config/foobar.yml:
+      class: sfDefineEnvironmentConfigHandler
+      param:
+        cache:  on   # enable cache
+        prefix: fb_
+        
+DESCRIPTION
+    This plugin provides a convinience of handling original yamls for defining environmental configurations.
+    It caches configurations handled by sfDefineEnvironmentConfigHandler by according to the parameter "cache" in config/config_handlers.yml.
+    
+LICENSE
+    This plugin is licensed under the same terms as Symfony itself.
+    http://www.symfony-project.org/license
+    
+AUTHOR
+    massat
