@@ -30,9 +30,8 @@
    <file role="data" name="README" />
    <file role="data" name="LICENSE" />
    <dir name="config">
-    <!-- model -->
     <file role="data" name="config.php" />
-    <file role="data" name="sfDefineEnvironmentConfigCachingPluginConfiguration.class.php">
+    <file role="data" name="sfDefineEnvironmentConfigCachingPluginConfiguration.class.php" />
    </dir>
   </dir>
  </contents>
