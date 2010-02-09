@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.6" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfDefineEnvironmentConfigCachingPlugin</name>
+ <channel>plugins.symfony-project.org</channel>
+ <summary>Provides a convinience of handling original yamls for defining environmental configurations.</summary>
+ <description>
+  This plugin provides a convinience of handling original yamls for defining environmental configurations.
+  It caches configurations handled by sfDefineEnvironmentConfigHandler by according to the parameter "cache" in config/config_handlers.yml.
+</description>
+ <lead>
+  <name>Masato Hirai</name>
+  <user>massat</user>
+  <email>mail@massat.jp</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-02-09</date>
+ <time>18:45:35</time>
+ <version>
+  <release>0.0.1</release>
+  <api>0.0.1</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.symfony-project.org/license">MIT license</license>
+ <notes>-</notes>
+ <contents>
+  <dir name="/">
+   <file role="data" name="README" />
+   <file role="data" name="LICENSE" />
+   <dir name="config">
+    <!-- model -->
+    <file role="data" name="config.php" />
+    <file role="data" name="sfDefineEnvironmentConfigCachingPluginConfiguration.class.php">
+   </dir>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.4</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   <package>
+    <name>symfony</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.2.10</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog />
+</package>
