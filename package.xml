@@ -14,10 +14,10 @@
   <active>yes</active>
  </lead>
  <date>2010-02-10</date>
- <time>11:00:00</time>
+ <time>14:00:00</time>
  <version>
-  <release>0.0.1</release>
-  <api>0.0.1</api>
+  <release>0.0.2</release>
+  <api>0.0.2</api>
  </version>
  <stability>
   <release>alpha</release>
@@ -47,6 +47,7 @@
     <name>symfony</name>
     <channel>pear.symfony-project.com</channel>
     <min>1.2.10</min>
+    <max>1.4.1</max>
    </package>
   </required>
  </dependencies>
