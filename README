@@ -30,7 +30,7 @@ It caches configurations handled by sfDefineEnvironmentConfigHandler by accordin
         config/foobar.yml:
           class: sfDefineEnvironmentConfigHandler
           param:
-            cache:  on   # enable cache
+            # cache:  off   # disable cache (default true)
             prefix: fb_
         
   * Use configuration in your applications.
