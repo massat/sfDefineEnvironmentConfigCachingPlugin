@@ -10,6 +10,8 @@ foreach($this->handlers as $name => $configHandler) {
         $configHandler instanceof sfDefineEnvironmentConfigHandler
         &&
         $configHandler->getParameterHolder()->get('cache', true)
+        &&
+        strpos($name, 'module.yml') === false // Ignores module.yml, because they are cached automatically.
     ) {
         $this->configCache->import($name, false);
     }
