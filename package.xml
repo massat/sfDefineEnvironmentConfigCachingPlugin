@@ -13,11 +13,11 @@
   <email>mail@massat.jp</email>
   <active>yes</active>
  </lead>
- <date>2010-02-10</date>
+ <date>2010-04-06</date>
  <time>14:00:00</time>
  <version>
-  <release>0.0.2</release>
-  <api>0.0.2</api>
+  <release>0.0.3</release>
+  <api>0.0.3</api>
  </version>
  <stability>
   <release>alpha</release>
@@ -27,7 +27,7 @@
  <notes>-</notes>
  <contents>
   <dir name="/">
-   <file role="data" name="README" />
+   <file role="data" name="README.md" />
    <file role="data" name="LICENSE" />
    <dir name="config">
     <file role="data" name="config.php" />
@@ -47,7 +47,6 @@
     <name>symfony</name>
     <channel>pear.symfony-project.com</channel>
     <min>1.2.10</min>
-    <max>1.4.1</max>
    </package>
   </required>
  </dependencies>
